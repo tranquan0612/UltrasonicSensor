@@ -1,7 +1,7 @@
 #include "UltrasonicSensor.h"
 
 // Tạo đối tượng cảm biến
-UltrasonicSensor sensor(5, 18);
+MyUltrasonic sensor(5, 18);
 
 void setup() {
     Serial.begin(115200);
