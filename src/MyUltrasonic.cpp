@@ -1,4 +1,4 @@
-#include "MyUltrasonic.h"
+#include "UltrasonicSensor.h"
 
 MyUltrasonic::MyUltrasonic(int trig, int echo) {
     trigPin = trig;
